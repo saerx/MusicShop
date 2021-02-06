@@ -40,6 +40,14 @@ public class ShopTest {
         assertEquals(1, shop.getStock());
     }
 
+    @Test
+    public void canCalculatePotentialProfit(){
+        shop.addToStock(piano);
+        shop.addToStock(drumSticks);
+        double potentialProfit = shop.getPotentialProfit();
+        assertEquals(208, potentialProfit, 0.0);
+    }
+
 
 
 }
