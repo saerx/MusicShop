@@ -17,4 +17,8 @@ public class Shop {
     public void removeFromStock(ISell stockItem){
         this.stock.remove(stockItem);
     }
+
+    public int getStock(){
+        return this.stock.size();
+    }
 }
