@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 public class GuitarTest {
 
-    Guitar guitar;
+    private Guitar guitar;
 
     @Before
     public void before(){
