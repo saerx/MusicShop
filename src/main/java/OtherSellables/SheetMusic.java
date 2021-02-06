@@ -2,7 +2,7 @@ package OtherSellables;
 
 import ShopStuff.ISell;
 
-public class SheetMusic extends OtherSellable implements ISell {
+public class SheetMusic extends OtherSellable {
 
 
     public SheetMusic(String description, double purchasedPrice, double salePrice) {

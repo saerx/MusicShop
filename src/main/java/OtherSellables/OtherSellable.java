@@ -1,6 +1,8 @@
 package OtherSellables;
 
-public abstract class OtherSellable {
+import ShopStuff.ISell;
+
+public abstract class OtherSellable implements ISell {
 
     private String description;
     private double purchasedPrice;
